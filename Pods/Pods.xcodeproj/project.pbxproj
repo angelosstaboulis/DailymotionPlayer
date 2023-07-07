@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BC36DF6A362563AD34D3A25D8FBAB2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F34AC0358F7BB05235C7D31EF9325C /* AdSupport.framework */; };
+		2FCD478225B6FCB206F8225E97978B46 /* Pods-DailyMotionPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07D4B272861962FE18D341FF876A35 /* Pods-DailyMotionPlayer-dummy.m */; };
+		35DFB632DD294740C591150D7DFA3811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */; };
+		3EC4FC203290E3BF20FD48BC03ACCB0D /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFB116B57255E3AAFED2A9E0E0C3DD /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m */; };
+		432E810A30512F4570E80F40C0C529E6 /* DailymotionPlayerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF15833FAE7FC26582705AA6B3B0C2B /* DailymotionPlayerSDK-dummy.m */; };
+		443CCFDA05060333686CCCD95BE7EA61 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ABC57972ECC0BA117689DF3F8EFE2A /* StringExtensions.swift */; };
+		4953087CA238AB572DF57442C5552611 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5828B32E08276EE09BEBF553DC2602 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DB975AD6F0EB91EA91D8B434C08171A /* DailymotionPlayerSDK-DailymotionPlayerSDK in Resources */ = {isa = PBXBuildFile; fileRef = 2698F307251467814B924C2FA101FFC6 /* DailymotionPlayerSDK-DailymotionPlayerSDK */; };
+		4F663E569649AE793AF05DD091172DA4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA62441E682A8AE5B52C56581BF136DD /* WebKit.framework */; };
+		6ED7E287024FB3BF1BA6516F81198ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E9A0744382F4938C1612C5F126867 /* UIKit.framework */; };
+		7531D34946C310BC61F7CAAC9D6130C3 /* Pods-DailyMotionPlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E13361F32FA8ADA88858764212DC0C0C /* Pods-DailyMotionPlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9922D4CEB20C9B693EF96BA8A05D64D8 /* omsdk-v1.js in Resources */ = {isa = PBXBuildFile; fileRef = 49CAA1DCBBFACD93538D5DDBB9149E76 /* omsdk-v1.js */; };
+		9B401B11FA04F104C45FE2FDC213F035 /* OMSDK_Dailymotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0559F34B7AD7D602E63C188FFCCDDB9 /* OMSDK_Dailymotion.framework */; };
+		A2670C97489E4ACDBD74CB1BDD51AB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */; };
+		B8C3A81B838439AEB0FDE8BADD25228C /* Pods-DailyMotionPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 210DCA19834EB3D7B37E4CDCE8E33FCF /* Pods-DailyMotionPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8C5FD6C097BE192F4BFF8EA8E132896 /* DailymotionPlayerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C27C9BC93878EC5E23E733611983B5 /* DailymotionPlayerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B902AD9F78AD22C433464311D8523ED9 /* DMPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559865BE7CCA5DB65AEC4B631A8DF6A /* DMPlayerViewController.swift */; };
+		BDC693674B770AAE48D407DE2DF7B4AC /* Pods-DailyMotionPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E4019007976E56DB00C72B4E74E8A /* Pods-DailyMotionPlayerTests-dummy.m */; };
+		BE382BABCF9FC0F9E8DA00D113C2AC8B /* EventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E425C0112AE499F5D3CFD9AE0543C /* EventParser.swift */; };
+		D725E05DC101CC147EE1DAF8FE2BE1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */; };
+		E1B52E5E665590644DAD1734B8BB795C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230260B289DC56A2516872083EA5F6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7649CF51D70D2D3CCEC85A59A2118DCA;
+			remoteInfo = "Pods-DailyMotionPlayer";
+		};
+		491AAAF8F90AF56D09C46CA4A73FC698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69EFBD2DC0EFA55BD4201EB9D7049193;
+			remoteInfo = DailymotionPlayerSDK;
+		};
+		4D6436A063A0145E6418500D90E007F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69EFBD2DC0EFA55BD4201EB9D7049193;
+			remoteInfo = DailymotionPlayerSDK;
+		};
+		ABB9B3918A30110AA0F2E50414861CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF32B89E20501E45EE871AFDA27D5FA;
+			remoteInfo = "DailymotionPlayerSDK-DailymotionPlayerSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051113D29C2F71D5DB54C1DBD6DDA3BC /* Pods-DailyMotionPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		0CF8551EFECA2AF63F3AA4689B2216C5 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests"; path = Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA6B3687024404FD9DAB7E1849EEAC1 /* Pods-DailyMotionPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		102C248624DC9EE36795F0069E4E9796 /* Pods-DailyMotionPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		1EF15833FAE7FC26582705AA6B3B0C2B /* DailymotionPlayerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DailymotionPlayerSDK-dummy.m"; sourceTree = "<group>"; };
+		210DCA19834EB3D7B37E4CDCE8E33FCF /* Pods-DailyMotionPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMotionPlayer-umbrella.h"; sourceTree = "<group>"; };
+		21B792E3329F5A283E55923530DFB19E /* Pods-DailyMotionPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2698F307251467814B924C2FA101FFC6 /* DailymotionPlayerSDK-DailymotionPlayerSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DailymotionPlayerSDK-DailymotionPlayerSDK"; path = DailymotionPlayerSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB1F7F9802C7A3800196EBA02F8A5BA /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-Info.plist"; sourceTree = "<group>"; };
+		2E4D1AA6CC341A4AD1CD014A452AEDC4 /* Pods-DailyMotionPlayerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMotionPlayerTests"; path = Pods_DailyMotionPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321E425C0112AE499F5D3CFD9AE0543C /* EventParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventParser.swift; path = DailymotionPlayerSDK/EventParser.swift; sourceTree = "<group>"; };
+		3536077EBA9D0B243F9792DBA33384DB /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39AD7509B8086B643BF5BEC2A62287B9 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A01A3F27B8D9B121DDE507A0E574A38 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B5828B32E08276EE09BEBF553DC2602 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h"; sourceTree = "<group>"; };
+		3FCFB116B57255E3AAFED2A9E0E0C3DD /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m"; sourceTree = "<group>"; };
+		418AE45E777C020D1E9800FFBBCBB97A /* DailymotionPlayerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DailymotionPlayerSDK-prefix.pch"; sourceTree = "<group>"; };
+		453655037166D818F491CAC4622B3793 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49CAA1DCBBFACD93538D5DDBB9149E76 /* omsdk-v1.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "omsdk-v1.js"; path = "DailymotionPlayerSDK/omsdk-v1.js"; sourceTree = "<group>"; };
+		4A5E4019007976E56DB00C72B4E74E8A /* Pods-DailyMotionPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMotionPlayerTests-dummy.m"; sourceTree = "<group>"; };
+		4D06EF596F5334446950204665F16C74 /* Pods-DailyMotionPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMotionPlayer"; path = Pods_DailyMotionPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3C3AC1FC7E91AEC781AC93193FFE4D /* Pods-DailyMotionPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMotionPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		553D5EF1C3E82DC118A1618F0F8030D1 /* OMSDK_Dailymotion.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OMSDK_Dailymotion.xcframework; sourceTree = "<group>"; };
+		5A613A071A2A74F022770FE08657E91A /* DailymotionPlayerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DailymotionPlayerSDK.modulemap; sourceTree = "<group>"; };
+		62ABC57972ECC0BA117689DF3F8EFE2A /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = DailymotionPlayerSDK/StringExtensions.swift; sourceTree = "<group>"; };
+		653902EE3A621D5A2103A71EE8FF6731 /* Pods-DailyMotionPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMotionPlayerTests.modulemap"; sourceTree = "<group>"; };
+		7D34984275A9988B904961567B2BA2FF /* Pods-DailyMotionPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84F34AC0358F7BB05235C7D31EF9325C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B925A0A09CC25A859650DBC56032973 /* Pods-DailyMotionPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D07D4B272861962FE18D341FF876A35 /* Pods-DailyMotionPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMotionPlayer-dummy.m"; sourceTree = "<group>"; };
+		99B158C5EC8D463A0B5623B92875F342 /* DailymotionPlayerSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DailymotionPlayerSDK; path = DailymotionPlayerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D198A94E10F1EC3E1B5CCAA5699D763 /* DailymotionPlayerSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DailymotionPlayerSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BA0DF373D79689F725020AF1D41097 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AA62441E682A8AE5B52C56581BF136DD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF6E9A0744382F4938C1612C5F126867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B423FFF8535B91F95A314A7D3E2D8546 /* Pods-DailyMotionPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMotionPlayer.modulemap"; sourceTree = "<group>"; };
+		B75B75121650F5D961DD2B9AD8308504 /* Pods-DailyMotionPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayer-Info.plist"; sourceTree = "<group>"; };
+		CB9FED0F5851BA980AC36A19D2A0587D /* Pods-DailyMotionPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DailyMotionPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		CE391AF056A68B42611B3DACF62CD6A7 /* DailymotionPlayerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DailymotionPlayerSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D3129D5757E0CEA51A6E8C9F6C8F0E57 /* DailymotionPlayerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DailymotionPlayerSDK.release.xcconfig; sourceTree = "<group>"; };
+		D4C27C9BC93878EC5E23E733611983B5 /* DailymotionPlayerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DailymotionPlayerSDK-umbrella.h"; sourceTree = "<group>"; };
+		D553260D96C30EA9CA735041061195AD /* Pods-DailyMotionPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMotionPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D559865BE7CCA5DB65AEC4B631A8DF6A /* DMPlayerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DMPlayerViewController.swift; path = DailymotionPlayerSDK/DMPlayerViewController.swift; sourceTree = "<group>"; };
+		DD7211576C069356D5DE08E68FFC6B2E /* ResourceBundle-DailymotionPlayerSDK-DailymotionPlayerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DailymotionPlayerSDK-DailymotionPlayerSDK-Info.plist"; sourceTree = "<group>"; };
+		E13361F32FA8ADA88858764212DC0C0C /* Pods-DailyMotionPlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMotionPlayerTests-umbrella.h"; sourceTree = "<group>"; };
+		EC230CEAD40E79AF8DF8556BC1D1D4F6 /* Pods-DailyMotionPlayerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMotionPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		F0559F34B7AD7D602E63C188FFCCDDB9 /* OMSDK_Dailymotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMSDK_Dailymotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OMSDK_Dailymotion.framework; sourceTree = DEVELOPER_DIR; };
+		F87A02B887D420D625A050FA3BC25C7C /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests.modulemap"; sourceTree = "<group>"; };
+		FB9DA11BC8DF9F7E63896BDB80295434 /* DailymotionPlayerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DailymotionPlayerSDK-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E4A1B4839C59C4EED0574CA7EB3D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725E05DC101CC147EE1DAF8FE2BE1CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFAC31FAE3794C36B4D2F887C0C76D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2670C97489E4ACDBD74CB1BDD51AB06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F936CC4541CB19944D531C5969A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BC36DF6A362563AD34D3A25D8FBAB2 /* AdSupport.framework in Frameworks */,
+				35DFB632DD294740C591150D7DFA3811 /* Foundation.framework in Frameworks */,
+				9B401B11FA04F104C45FE2FDC213F035 /* OMSDK_Dailymotion.framework in Frameworks */,
+				6ED7E287024FB3BF1BA6516F81198ADD /* UIKit.framework in Frameworks */,
+				4F663E569649AE793AF05DD091172DA4 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DD9BAAE829B94410043A5AB899CDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7445AFBB21E85B1D82AF8C891F482E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B52E5E665590644DAD1734B8BB795C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ED248B64CD1F860FFCE4534B44F7F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F17E68AEEA43380F9775BF71876C25D9 /* Pods-DailyMotionPlayer */,
+				E4C775EE4A0FED529BE8254F030614CB /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */,
+				E3ECCCDFC8033E7011F4988C0E3DEE3D /* Pods-DailyMotionPlayerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88E5202ED73460D858CD4EC2EEF6FDB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A613A071A2A74F022770FE08657E91A /* DailymotionPlayerSDK.modulemap */,
+				1EF15833FAE7FC26582705AA6B3B0C2B /* DailymotionPlayerSDK-dummy.m */,
+				FB9DA11BC8DF9F7E63896BDB80295434 /* DailymotionPlayerSDK-Info.plist */,
+				418AE45E777C020D1E9800FFBBCBB97A /* DailymotionPlayerSDK-prefix.pch */,
+				D4C27C9BC93878EC5E23E733611983B5 /* DailymotionPlayerSDK-umbrella.h */,
+				9D198A94E10F1EC3E1B5CCAA5699D763 /* DailymotionPlayerSDK-xcframeworks.sh */,
+				CE391AF056A68B42611B3DACF62CD6A7 /* DailymotionPlayerSDK.debug.xcconfig */,
+				D3129D5757E0CEA51A6E8C9F6C8F0E57 /* DailymotionPlayerSDK.release.xcconfig */,
+				DD7211576C069356D5DE08E68FFC6B2E /* ResourceBundle-DailymotionPlayerSDK-DailymotionPlayerSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DailymotionPlayerSDK";
+			sourceTree = "<group>";
+		};
+		97732E83CAC95D7EC3D97F5284E70A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				553D5EF1C3E82DC118A1618F0F8030D1 /* OMSDK_Dailymotion.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A728C317CCC743CCDA83F7CE40F407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A95F8DBC470010D0237F9BD998DFE /* DailymotionPlayerSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE09E9EC141F54AEF121363D1C88AD1E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE09E9EC141F54AEF121363D1C88AD1E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84F34AC0358F7BB05235C7D31EF9325C /* AdSupport.framework */,
+				8B6A13CD21B225675301977FC50EA189 /* Foundation.framework */,
+				F0559F34B7AD7D602E63C188FFCCDDB9 /* OMSDK_Dailymotion.framework */,
+				AF6E9A0744382F4938C1612C5F126867 /* UIKit.framework */,
+				AA62441E682A8AE5B52C56581BF136DD /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C840BC6FB87908601691F2A780A16DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B158C5EC8D463A0B5623B92875F342 /* DailymotionPlayerSDK */,
+				2698F307251467814B924C2FA101FFC6 /* DailymotionPlayerSDK-DailymotionPlayerSDK */,
+				4D06EF596F5334446950204665F16C74 /* Pods-DailyMotionPlayer */,
+				0CF8551EFECA2AF63F3AA4689B2216C5 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */,
+				2E4D1AA6CC341A4AD1CD014A452AEDC4 /* Pods-DailyMotionPlayerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7A95F8DBC470010D0237F9BD998DFE /* DailymotionPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D559865BE7CCA5DB65AEC4B631A8DF6A /* DMPlayerViewController.swift */,
+				321E425C0112AE499F5D3CFD9AE0543C /* EventParser.swift */,
+				62ABC57972ECC0BA117689DF3F8EFE2A /* StringExtensions.swift */,
+				97732E83CAC95D7EC3D97F5284E70A51 /* Frameworks */,
+				D8BE61D18F210AEC15D78F333351E700 /* Resources */,
+				88E5202ED73460D858CD4EC2EEF6FDB0 /* Support Files */,
+			);
+			name = DailymotionPlayerSDK;
+			path = DailymotionPlayerSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				B3A728C317CCC743CCDA83F7CE40F407 /* Pods */,
+				C840BC6FB87908601691F2A780A16DAA /* Products */,
+				00ED248B64CD1F860FFCE4534B44F7F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BE61D18F210AEC15D78F333351E700 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49CAA1DCBBFACD93538D5DDBB9149E76 /* omsdk-v1.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3ECCCDFC8033E7011F4988C0E3DEE3D /* Pods-DailyMotionPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				653902EE3A621D5A2103A71EE8FF6731 /* Pods-DailyMotionPlayerTests.modulemap */,
+				D553260D96C30EA9CA735041061195AD /* Pods-DailyMotionPlayerTests-acknowledgements.markdown */,
+				7D34984275A9988B904961567B2BA2FF /* Pods-DailyMotionPlayerTests-acknowledgements.plist */,
+				4A5E4019007976E56DB00C72B4E74E8A /* Pods-DailyMotionPlayerTests-dummy.m */,
+				EC230CEAD40E79AF8DF8556BC1D1D4F6 /* Pods-DailyMotionPlayerTests-Info.plist */,
+				E13361F32FA8ADA88858764212DC0C0C /* Pods-DailyMotionPlayerTests-umbrella.h */,
+				21B792E3329F5A283E55923530DFB19E /* Pods-DailyMotionPlayerTests.debug.xcconfig */,
+				0FA6B3687024404FD9DAB7E1849EEAC1 /* Pods-DailyMotionPlayerTests.release.xcconfig */,
+			);
+			name = "Pods-DailyMotionPlayerTests";
+			path = "Target Support Files/Pods-DailyMotionPlayerTests";
+			sourceTree = "<group>";
+		};
+		E4C775EE4A0FED529BE8254F030614CB /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F87A02B887D420D625A050FA3BC25C7C /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.modulemap */,
+				3A01A3F27B8D9B121DDE507A0E574A38 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.markdown */,
+				39AD7509B8086B643BF5BEC2A62287B9 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-acknowledgements.plist */,
+				3FCFB116B57255E3AAFED2A9E0E0C3DD /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m */,
+				A1BA0DF373D79689F725020AF1D41097 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks.sh */,
+				2AB1F7F9802C7A3800196EBA02F8A5BA /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-Info.plist */,
+				3B5828B32E08276EE09BEBF553DC2602 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h */,
+				453655037166D818F491CAC4622B3793 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */,
+				3536077EBA9D0B243F9792DBA33384DB /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */,
+			);
+			name = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests";
+			path = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests";
+			sourceTree = "<group>";
+		};
+		F17E68AEEA43380F9775BF71876C25D9 /* Pods-DailyMotionPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B423FFF8535B91F95A314A7D3E2D8546 /* Pods-DailyMotionPlayer.modulemap */,
+				4E3C3AC1FC7E91AEC781AC93193FFE4D /* Pods-DailyMotionPlayer-acknowledgements.markdown */,
+				8B925A0A09CC25A859650DBC56032973 /* Pods-DailyMotionPlayer-acknowledgements.plist */,
+				8D07D4B272861962FE18D341FF876A35 /* Pods-DailyMotionPlayer-dummy.m */,
+				CB9FED0F5851BA980AC36A19D2A0587D /* Pods-DailyMotionPlayer-frameworks.sh */,
+				B75B75121650F5D961DD2B9AD8308504 /* Pods-DailyMotionPlayer-Info.plist */,
+				210DCA19834EB3D7B37E4CDCE8E33FCF /* Pods-DailyMotionPlayer-umbrella.h */,
+				051113D29C2F71D5DB54C1DBD6DDA3BC /* Pods-DailyMotionPlayer.debug.xcconfig */,
+				102C248624DC9EE36795F0069E4E9796 /* Pods-DailyMotionPlayer.release.xcconfig */,
+			);
+			name = "Pods-DailyMotionPlayer";
+			path = "Target Support Files/Pods-DailyMotionPlayer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E3E697C96AAB088EB512CE989F75109 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C5FD6C097BE192F4BFF8EA8E132896 /* DailymotionPlayerSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9954EA6356ACB35241E8B406D74841DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7531D34946C310BC61F7CAAC9D6130C3 /* Pods-DailyMotionPlayerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B1F1AE6DE456D912477F82082EA74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C3A81B838439AEB0FDE8BADD25228C /* Pods-DailyMotionPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0EAFB2602A3D9C5C177963DF376DC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4953087CA238AB572DF57442C5552611 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69EFBD2DC0EFA55BD4201EB9D7049193 /* DailymotionPlayerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A91C15850382DF8B73655FDD4AA1FB /* Build configuration list for PBXNativeTarget "DailymotionPlayerSDK" */;
+			buildPhases = (
+				1E3E697C96AAB088EB512CE989F75109 /* Headers */,
+				63DA20C00B82839329CE851B9B1DD720 /* [CP] Copy XCFrameworks */,
+				3B491474CE7D1CB80A73A4FB7742130D /* Sources */,
+				666F936CC4541CB19944D531C5969A48 /* Frameworks */,
+				26A0714D7F0D92F9AAC3D0E42829BAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D43934D0E123FECEE85D96D716F6F8 /* PBXTargetDependency */,
+			);
+			name = DailymotionPlayerSDK;
+			productName = DailymotionPlayerSDK;
+			productReference = 99B158C5EC8D463A0B5623B92875F342 /* DailymotionPlayerSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		7649CF51D70D2D3CCEC85A59A2118DCA /* Pods-DailyMotionPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506299D094860983DBF080D0144DC29A /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayer" */;
+			buildPhases = (
+				C28B1F1AE6DE456D912477F82082EA74 /* Headers */,
+				9DD19FE69BA220D6ADAF612859EF3533 /* Sources */,
+				2FFAC31FAE3794C36B4D2F887C0C76D9 /* Frameworks */,
+				73EB2E4B8BA588F0D9CBAB547D637D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0B40BF187FE269E1D9152512C9DEB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyMotionPlayer";
+			productName = Pods_DailyMotionPlayer;
+			productReference = 4D06EF596F5334446950204665F16C74 /* Pods-DailyMotionPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B6033245DD2F1430B24C374B173EF27 /* Pods-DailyMotionPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AEDE10CEF2EF4BD2467C6621C3AC52 /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayerTests" */;
+			buildPhases = (
+				9954EA6356ACB35241E8B406D74841DD /* Headers */,
+				7BB405807BC008E86F58EB4622DB8902 /* Sources */,
+				00E4A1B4839C59C4EED0574CA7EB3D6C /* Frameworks */,
+				124D00F38A792F6DB81DBC5DB020EACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774D36FC14034D22B691B08843C86FB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyMotionPlayerTests";
+			productName = Pods_DailyMotionPlayerTests;
+			productReference = 2E4D1AA6CC341A4AD1CD014A452AEDC4 /* Pods-DailyMotionPlayerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DF32B89E20501E45EE871AFDA27D5FA /* DailymotionPlayerSDK-DailymotionPlayerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A80BF55BE86F3E4F4FEC58AFA8E5768 /* Build configuration list for PBXNativeTarget "DailymotionPlayerSDK-DailymotionPlayerSDK" */;
+			buildPhases = (
+				792594A4078DAD1E9F21702CDF4DBC1F /* Sources */,
+				C9DD9BAAE829B94410043A5AB899CDDC /* Frameworks */,
+				7B6C328F903EE11F050245E2B313EE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DailymotionPlayerSDK-DailymotionPlayerSDK";
+			productName = DailymotionPlayerSDK;
+			productReference = 2698F307251467814B924C2FA101FFC6 /* DailymotionPlayerSDK-DailymotionPlayerSDK */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D59D161CD937010112BF8212FC3C1879 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36227B94AB985BD07FAE14E4547D8DF7 /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayer-DailyMotionPlayerUITests" */;
+			buildPhases = (
+				EA0EAFB2602A3D9C5C177963DF376DC4 /* Headers */,
+				2278FA6C16F49CC4548C10F81B410D7B /* Sources */,
+				DB7445AFBB21E85B1D82AF8C891F482E /* Frameworks */,
+				4906E598ED1340EF36AF599298AD777B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0574C0F87EBE26FE4D351C0344914C9E /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests";
+			productName = Pods_DailyMotionPlayer_DailyMotionPlayerUITests;
+			productReference = 0CF8551EFECA2AF63F3AA4689B2216C5 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C840BC6FB87908601691F2A780A16DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69EFBD2DC0EFA55BD4201EB9D7049193 /* DailymotionPlayerSDK */,
+				9DF32B89E20501E45EE871AFDA27D5FA /* DailymotionPlayerSDK-DailymotionPlayerSDK */,
+				7649CF51D70D2D3CCEC85A59A2118DCA /* Pods-DailyMotionPlayer */,
+				D59D161CD937010112BF8212FC3C1879 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests */,
+				7B6033245DD2F1430B24C374B173EF27 /* Pods-DailyMotionPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124D00F38A792F6DB81DBC5DB020EACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A0714D7F0D92F9AAC3D0E42829BAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB975AD6F0EB91EA91D8B434C08171A /* DailymotionPlayerSDK-DailymotionPlayerSDK in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4906E598ED1340EF36AF599298AD777B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EB2E4B8BA588F0D9CBAB547D637D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6C328F903EE11F050245E2B313EE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9922D4CEB20C9B693EF96BA8A05D64D8 /* omsdk-v1.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63DA20C00B82839329CE851B9B1DD720 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2278FA6C16F49CC4548C10F81B410D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4FC203290E3BF20FD48BC03ACCB0D /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B491474CE7D1CB80A73A4FB7742130D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432E810A30512F4570E80F40C0C529E6 /* DailymotionPlayerSDK-dummy.m in Sources */,
+				B902AD9F78AD22C433464311D8523ED9 /* DMPlayerViewController.swift in Sources */,
+				BE382BABCF9FC0F9E8DA00D113C2AC8B /* EventParser.swift in Sources */,
+				443CCFDA05060333686CCCD95BE7EA61 /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792594A4078DAD1E9F21702CDF4DBC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB405807BC008E86F58EB4622DB8902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC693674B770AAE48D407DE2DF7B4AC /* Pods-DailyMotionPlayerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD19FE69BA220D6ADAF612859EF3533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCD478225B6FCB206F8225E97978B46 /* Pods-DailyMotionPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0574C0F87EBE26FE4D351C0344914C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DailymotionPlayerSDK;
+			target = 69EFBD2DC0EFA55BD4201EB9D7049193 /* DailymotionPlayerSDK */;
+			targetProxy = 4D6436A063A0145E6418500D90E007F5 /* PBXContainerItemProxy */;
+		};
+		774D36FC14034D22B691B08843C86FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DailyMotionPlayer";
+			target = 7649CF51D70D2D3CCEC85A59A2118DCA /* Pods-DailyMotionPlayer */;
+			targetProxy = 230260B289DC56A2516872083EA5F6A9 /* PBXContainerItemProxy */;
+		};
+		7E0B40BF187FE269E1D9152512C9DEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DailymotionPlayerSDK;
+			target = 69EFBD2DC0EFA55BD4201EB9D7049193 /* DailymotionPlayerSDK */;
+			targetProxy = 491AAAF8F90AF56D09C46CA4A73FC698 /* PBXContainerItemProxy */;
+		};
+		87D43934D0E123FECEE85D96D716F6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DailymotionPlayerSDK-DailymotionPlayerSDK";
+			target = 9DF32B89E20501E45EE871AFDA27D5FA /* DailymotionPlayerSDK-DailymotionPlayerSDK */;
+			targetProxy = ABB9B3918A30110AA0F2E50414861CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28CDF1ACF46AF2A020D2EBADFBC7259F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453655037166D818F491CAC4622B3793 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B8981D0E8DE60D9937F1B2FF8C8B3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B792E3329F5A283E55923530DFB19E /* Pods-DailyMotionPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B8C9DAD968A9CB7BCEFAB96827932CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3129D5757E0CEA51A6E8C9F6C8F0E57 /* DailymotionPlayerSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK.modulemap";
+				PRODUCT_MODULE_NAME = DailymotionPlayerSDK;
+				PRODUCT_NAME = DailymotionPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		513DA35FB8E64E7ECE4CA7DD2D9A5499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE391AF056A68B42611B3DACF62CD6A7 /* DailymotionPlayerSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DailymotionPlayerSDK";
+				IBSC_MODULE = DailymotionPlayerSDK;
+				INFOPLIST_FILE = "Target Support Files/DailymotionPlayerSDK/ResourceBundle-DailymotionPlayerSDK-DailymotionPlayerSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DailymotionPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		731AC64AC14838625A54D4A7E7D18580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051113D29C2F71D5DB54C1DBD6DDA3BC /* Pods-DailyMotionPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73E3E184655DA76DF6090810724B1317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3129D5757E0CEA51A6E8C9F6C8F0E57 /* DailymotionPlayerSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DailymotionPlayerSDK";
+				IBSC_MODULE = DailymotionPlayerSDK;
+				INFOPLIST_FILE = "Target Support Files/DailymotionPlayerSDK/ResourceBundle-DailymotionPlayerSDK-DailymotionPlayerSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DailymotionPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9BD8B2C4EDAB3C3050A81F1A2642B7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA6B3687024404FD9DAB7E1849EEAC1 /* Pods-DailyMotionPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1AD360EFE9578086025E8739739D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE391AF056A68B42611B3DACF62CD6A7 /* DailymotionPlayerSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DailymotionPlayerSDK/DailymotionPlayerSDK.modulemap";
+				PRODUCT_MODULE_NAME = DailymotionPlayerSDK;
+				PRODUCT_NAME = DailymotionPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA0FFA5EED6FF253DD8E18BCE3DCA72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3536077EBA9D0B243F9792DBA33384DB /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA12EB4CB37EF32D9F34279890568336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102C248624DC9EE36795F0069E4E9796 /* Pods-DailyMotionPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A91C15850382DF8B73655FDD4AA1FB /* Build configuration list for PBXNativeTarget "DailymotionPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AD360EFE9578086025E8739739D23E /* Debug */,
+				3B8C9DAD968A9CB7BCEFAB96827932CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36227B94AB985BD07FAE14E4547D8DF7 /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayer-DailyMotionPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CDF1ACF46AF2A020D2EBADFBC7259F /* Debug */,
+				CA0FFA5EED6FF253DD8E18BCE3DCA72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506299D094860983DBF080D0144DC29A /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731AC64AC14838625A54D4A7E7D18580 /* Debug */,
+				FA12EB4CB37EF32D9F34279890568336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A80BF55BE86F3E4F4FEC58AFA8E5768 /* Build configuration list for PBXNativeTarget "DailymotionPlayerSDK-DailymotionPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513DA35FB8E64E7ECE4CA7DD2D9A5499 /* Debug */,
+				73E3E184655DA76DF6090810724B1317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AEDE10CEF2EF4BD2467C6621C3AC52 /* Build configuration list for PBXNativeTarget "Pods-DailyMotionPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8981D0E8DE60D9937F1B2FF8C8B3CF /* Debug */,
+				9BD8B2C4EDAB3C3050A81F1A2642B7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

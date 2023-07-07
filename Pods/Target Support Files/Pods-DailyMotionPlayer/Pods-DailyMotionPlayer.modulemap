@@ -1,0 +1,6 @@
+framework module Pods_DailyMotionPlayer {
+  umbrella header "Pods-DailyMotionPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

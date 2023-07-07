@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DailymotionPlayerSDK/DailymotionPlayerSDK.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DailymotionPlayerSDK/OMSDK_Dailymotion.framework/OMSDK_Dailymotion

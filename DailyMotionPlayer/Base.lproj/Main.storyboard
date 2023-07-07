@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DailyMotionPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vw4-a4-JvQ">
+                                <rect key="frame" x="-20" y="5" width="454" height="919"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUP-a4-NsS">
+                                        <rect key="frame" x="20" y="30" width="425" height="98"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H7j-4h-oD3">
+                                                <rect key="frame" x="20" y="60" width="250" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6L-kS-3gb">
+                                                <rect key="frame" x="276" y="50" width="129" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="129" id="kcF-KP-wIl"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Play Video"/>
+                                                <connections>
+                                                    <action selector="btnPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Lc-xM-pMZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="T6L-kS-3gb" secondAttribute="bottom" constant="-2" id="ArK-Zy-zVb"/>
+                                            <constraint firstItem="T6L-kS-3gb" firstAttribute="leading" secondItem="H7j-4h-oD3" secondAttribute="trailing" constant="6" id="GFs-Zf-5H5"/>
+                                            <constraint firstAttribute="trailing" secondItem="T6L-kS-3gb" secondAttribute="trailing" constant="20" id="PD1-AD-sje"/>
+                                            <constraint firstItem="H7j-4h-oD3" firstAttribute="leading" secondItem="LUP-a4-NsS" secondAttribute="leading" constant="20" id="d2a-t4-nop"/>
+                                            <constraint firstItem="T6L-kS-3gb" firstAttribute="top" secondItem="LUP-a4-NsS" secondAttribute="top" constant="50" id="lgu-xn-uTC"/>
+                                            <constraint firstItem="H7j-4h-oD3" firstAttribute="top" secondItem="LUP-a4-NsS" secondAttribute="top" constant="60" id="nDg-1R-neg"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxV-8v-Qz1">
+                                        <rect key="frame" x="-58" y="154" width="512" height="785"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dailymotion VideoPlayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpy-9C-oes">
+                                        <rect key="frame" x="44" y="45" width="355" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Qpy-9C-oes" secondAttribute="trailing" constant="55" id="FQi-Fg-grt"/>
+                                    <constraint firstAttribute="trailing" secondItem="dxV-8v-Qz1" secondAttribute="trailing" id="JGR-xp-VfP"/>
+                                    <constraint firstAttribute="trailing" secondItem="LUP-a4-NsS" secondAttribute="trailing" constant="9" id="JNK-rn-hIG"/>
+                                    <constraint firstItem="dxV-8v-Qz1" firstAttribute="leading" secondItem="Vw4-a4-JvQ" secondAttribute="leading" constant="-58" id="QmS-2k-dM4"/>
+                                    <constraint firstItem="Qpy-9C-oes" firstAttribute="top" secondItem="Vw4-a4-JvQ" secondAttribute="top" constant="45" id="SCj-gT-J0N"/>
+                                    <constraint firstAttribute="bottom" secondItem="dxV-8v-Qz1" secondAttribute="bottom" constant="-20" id="TDA-Og-cal"/>
+                                    <constraint firstItem="LUP-a4-NsS" firstAttribute="top" secondItem="Vw4-a4-JvQ" secondAttribute="top" constant="30" id="YN2-LK-vbk"/>
+                                    <constraint firstItem="Qpy-9C-oes" firstAttribute="leading" secondItem="Vw4-a4-JvQ" secondAttribute="leading" constant="44" id="lRe-ih-JfQ"/>
+                                    <constraint firstItem="dxV-8v-Qz1" firstAttribute="top" secondItem="Qpy-9C-oes" secondAttribute="bottom" constant="88" id="lrG-wr-ipy"/>
+                                    <constraint firstItem="dxV-8v-Qz1" firstAttribute="top" secondItem="LUP-a4-NsS" secondAttribute="bottom" constant="26" id="oXL-oj-ZPB"/>
+                                    <constraint firstItem="LUP-a4-NsS" firstAttribute="leading" secondItem="Vw4-a4-JvQ" secondAttribute="leading" constant="20" id="stn-w7-oYe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="Vw4-a4-JvQ" secondAttribute="bottom" constant="-62" id="2Ej-Kr-py7"/>
+                            <constraint firstItem="Vw4-a4-JvQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-40" id="Q70-X5-sGi"/>
+                            <constraint firstItem="Vw4-a4-JvQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-39" id="SWU-0J-cpc"/>
+                            <constraint firstItem="Vw4-a4-JvQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVN-Jt-7CQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnPlay" destination="T6L-kS-3gb" id="dFV-R0-bgI"/>
+                        <outlet property="playerVideoView" destination="dxV-8v-Qz1" id="jog-yD-Qru"/>
+                        <outlet property="txtURL" destination="H7j-4h-oD3" id="6Q9-VW-MHi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

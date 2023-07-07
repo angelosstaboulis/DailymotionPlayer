@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E700FEA1747531BC050049 /* Pods_DailyMotionPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A85E7A306EB73ACD8B0A8 /* Pods_DailyMotionPlayer.framework */; };
+		8DFE17C2C7994499E808BD6B /* Pods_DailyMotionPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42EC87490899FAB013D978A /* Pods_DailyMotionPlayerTests.framework */; };
+		AA86CAA9953B4E694364772C /* Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5595AF149FAC506B0744E9 /* Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework */; };
+		D6B7C7F62A58022700CB9158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C7F52A58022700CB9158 /* AppDelegate.swift */; };
+		D6B7C7F82A58022700CB9158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C7F72A58022700CB9158 /* SceneDelegate.swift */; };
+		D6B7C7FA2A58022700CB9158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C7F92A58022700CB9158 /* ViewController.swift */; };
+		D6B7C7FD2A58022700CB9158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B7C7FB2A58022700CB9158 /* Main.storyboard */; };
+		D6B7C7FF2A58022800CB9158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B7C7FE2A58022800CB9158 /* Assets.xcassets */; };
+		D6B7C8022A58022800CB9158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B7C8002A58022800CB9158 /* LaunchScreen.storyboard */; };
+		D6B7C80D2A58022800CB9158 /* DailyMotionPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C80C2A58022800CB9158 /* DailyMotionPlayerTests.swift */; };
+		D6B7C8172A58022800CB9158 /* DailyMotionPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C8162A58022800CB9158 /* DailyMotionPlayerUITests.swift */; };
+		D6B7C8192A58022800CB9158 /* DailyMotionPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7C8182A58022800CB9158 /* DailyMotionPlayerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B7C8092A58022800CB9158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B7C7EA2A58022700CB9158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B7C7F12A58022700CB9158;
+			remoteInfo = DailyMotionPlayer;
+		};
+		D6B7C8132A58022800CB9158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B7C7EA2A58022700CB9158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B7C7F12A58022700CB9158;
+			remoteInfo = DailyMotionPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DD850D0CE666DE3E097867 /* Pods-DailyMotionPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayer.release.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		1956D5CEE8B4480F3449717C /* Pods-DailyMotionPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5595AF149FAC506B0744E9 /* Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BE081EB43C9C01F3D3DE45 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4A85E7A306EB73ACD8B0A8 /* Pods_DailyMotionPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyMotionPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C05E8D501F0EF682CB99A6 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D42EC87490899FAB013D978A /* Pods_DailyMotionPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyMotionPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B7C7F22A58022700CB9158 /* DailyMotionPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMotionPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B7C7F52A58022700CB9158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6B7C7F72A58022700CB9158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6B7C7F92A58022700CB9158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6B7C7FC2A58022700CB9158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B7C7FE2A58022800CB9158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B7C8012A58022800CB9158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6B7C8032A58022800CB9158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B7C8082A58022800CB9158 /* DailyMotionPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMotionPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B7C80C2A58022800CB9158 /* DailyMotionPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMotionPlayerTests.swift; sourceTree = "<group>"; };
+		D6B7C8122A58022800CB9158 /* DailyMotionPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMotionPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B7C8162A58022800CB9158 /* DailyMotionPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMotionPlayerUITests.swift; sourceTree = "<group>"; };
+		D6B7C8182A58022800CB9158 /* DailyMotionPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMotionPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D93E59EB935CF41BA9A4EBE9 /* Pods-DailyMotionPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayerTests/Pods-DailyMotionPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E86DCD9633680BD406F43C63 /* Pods-DailyMotionPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyMotionPlayer.debug.xcconfig"; path = "Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B7C7EF2A58022700CB9158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E700FEA1747531BC050049 /* Pods_DailyMotionPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C8052A58022800CB9158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFE17C2C7994499E808BD6B /* Pods_DailyMotionPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C80F2A58022800CB9158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA86CAA9953B4E694364772C /* Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1200AEB820F61A2D24948882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86DCD9633680BD406F43C63 /* Pods-DailyMotionPlayer.debug.xcconfig */,
+				17DD850D0CE666DE3E097867 /* Pods-DailyMotionPlayer.release.xcconfig */,
+				57BE081EB43C9C01F3D3DE45 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */,
+				A9C05E8D501F0EF682CB99A6 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */,
+				1956D5CEE8B4480F3449717C /* Pods-DailyMotionPlayerTests.debug.xcconfig */,
+				D93E59EB935CF41BA9A4EBE9 /* Pods-DailyMotionPlayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		20886F14E572E53304F6E2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A85E7A306EB73ACD8B0A8 /* Pods_DailyMotionPlayer.framework */,
+				2B5595AF149FAC506B0744E9 /* Pods_DailyMotionPlayer_DailyMotionPlayerUITests.framework */,
+				D42EC87490899FAB013D978A /* Pods_DailyMotionPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B7C7E92A58022700CB9158 = {
+			isa = PBXGroup;
+			children = (
+				D6B7C7F42A58022700CB9158 /* DailyMotionPlayer */,
+				D6B7C80B2A58022800CB9158 /* DailyMotionPlayerTests */,
+				D6B7C8152A58022800CB9158 /* DailyMotionPlayerUITests */,
+				D6B7C7F32A58022700CB9158 /* Products */,
+				1200AEB820F61A2D24948882 /* Pods */,
+				20886F14E572E53304F6E2D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B7C7F32A58022700CB9158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7C7F22A58022700CB9158 /* DailyMotionPlayer.app */,
+				D6B7C8082A58022800CB9158 /* DailyMotionPlayerTests.xctest */,
+				D6B7C8122A58022800CB9158 /* DailyMotionPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B7C7F42A58022700CB9158 /* DailyMotionPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7C7F52A58022700CB9158 /* AppDelegate.swift */,
+				D6B7C7F72A58022700CB9158 /* SceneDelegate.swift */,
+				D6B7C7F92A58022700CB9158 /* ViewController.swift */,
+				D6B7C7FB2A58022700CB9158 /* Main.storyboard */,
+				D6B7C7FE2A58022800CB9158 /* Assets.xcassets */,
+				D6B7C8002A58022800CB9158 /* LaunchScreen.storyboard */,
+				D6B7C8032A58022800CB9158 /* Info.plist */,
+			);
+			path = DailyMotionPlayer;
+			sourceTree = "<group>";
+		};
+		D6B7C80B2A58022800CB9158 /* DailyMotionPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7C80C2A58022800CB9158 /* DailyMotionPlayerTests.swift */,
+			);
+			path = DailyMotionPlayerTests;
+			sourceTree = "<group>";
+		};
+		D6B7C8152A58022800CB9158 /* DailyMotionPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7C8162A58022800CB9158 /* DailyMotionPlayerUITests.swift */,
+				D6B7C8182A58022800CB9158 /* DailyMotionPlayerUITestsLaunchTests.swift */,
+			);
+			path = DailyMotionPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B7C7F12A58022700CB9158 /* DailyMotionPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B7C81C2A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayer" */;
+			buildPhases = (
+				D6CA8E95CECBCEA08702E785 /* [CP] Check Pods Manifest.lock */,
+				D6B7C7EE2A58022700CB9158 /* Sources */,
+				D6B7C7EF2A58022700CB9158 /* Frameworks */,
+				D6B7C7F02A58022700CB9158 /* Resources */,
+				1BC3B22B23D4242D910B6D76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyMotionPlayer;
+			productName = DailyMotionPlayer;
+			productReference = D6B7C7F22A58022700CB9158 /* DailyMotionPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6B7C8072A58022800CB9158 /* DailyMotionPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B7C81F2A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayerTests" */;
+			buildPhases = (
+				B6ADD0553D7C65E5D07065C8 /* [CP] Check Pods Manifest.lock */,
+				D6B7C8042A58022800CB9158 /* Sources */,
+				D6B7C8052A58022800CB9158 /* Frameworks */,
+				D6B7C8062A58022800CB9158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B7C80A2A58022800CB9158 /* PBXTargetDependency */,
+			);
+			name = DailyMotionPlayerTests;
+			productName = DailyMotionPlayerTests;
+			productReference = D6B7C8082A58022800CB9158 /* DailyMotionPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6B7C8112A58022800CB9158 /* DailyMotionPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B7C8222A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayerUITests" */;
+			buildPhases = (
+				E26FDE043AD1048530FFE899 /* [CP] Check Pods Manifest.lock */,
+				D6B7C80E2A58022800CB9158 /* Sources */,
+				D6B7C80F2A58022800CB9158 /* Frameworks */,
+				D6B7C8102A58022800CB9158 /* Resources */,
+				DB059A11368FABA606852A3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B7C8142A58022800CB9158 /* PBXTargetDependency */,
+			);
+			name = DailyMotionPlayerUITests;
+			productName = DailyMotionPlayerUITests;
+			productReference = D6B7C8122A58022800CB9158 /* DailyMotionPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B7C7EA2A58022700CB9158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D6B7C7F12A58022700CB9158 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D6B7C8072A58022800CB9158 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6B7C7F12A58022700CB9158;
+					};
+					D6B7C8112A58022800CB9158 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6B7C7F12A58022700CB9158;
+					};
+				};
+			};
+			buildConfigurationList = D6B7C7ED2A58022700CB9158 /* Build configuration list for PBXProject "DailyMotionPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B7C7E92A58022700CB9158;
+			productRefGroup = D6B7C7F32A58022700CB9158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B7C7F12A58022700CB9158 /* DailyMotionPlayer */,
+				D6B7C8072A58022800CB9158 /* DailyMotionPlayerTests */,
+				D6B7C8112A58022800CB9158 /* DailyMotionPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B7C7F02A58022700CB9158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B7C8022A58022800CB9158 /* LaunchScreen.storyboard in Resources */,
+				D6B7C7FF2A58022800CB9158 /* Assets.xcassets in Resources */,
+				D6B7C7FD2A58022700CB9158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C8062A58022800CB9158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C8102A58022800CB9158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC3B22B23D4242D910B6D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer/Pods-DailyMotionPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ADD0553D7C65E5D07065C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyMotionPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CA8E95CECBCEA08702E785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyMotionPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB059A11368FABA606852A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyMotionPlayer-DailyMotionPlayerUITests/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26FDE043AD1048530FFE899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyMotionPlayer-DailyMotionPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B7C7EE2A58022700CB9158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B7C7FA2A58022700CB9158 /* ViewController.swift in Sources */,
+				D6B7C7F62A58022700CB9158 /* AppDelegate.swift in Sources */,
+				D6B7C7F82A58022700CB9158 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C8042A58022800CB9158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B7C80D2A58022800CB9158 /* DailyMotionPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B7C80E2A58022800CB9158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B7C8172A58022800CB9158 /* DailyMotionPlayerUITests.swift in Sources */,
+				D6B7C8192A58022800CB9158 /* DailyMotionPlayerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6B7C80A2A58022800CB9158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B7C7F12A58022700CB9158 /* DailyMotionPlayer */;
+			targetProxy = D6B7C8092A58022800CB9158 /* PBXContainerItemProxy */;
+		};
+		D6B7C8142A58022800CB9158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B7C7F12A58022700CB9158 /* DailyMotionPlayer */;
+			targetProxy = D6B7C8132A58022800CB9158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6B7C7FB2A58022700CB9158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B7C7FC2A58022700CB9158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B7C8002A58022800CB9158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B7C8012A58022800CB9158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B7C81A2A58022800CB9158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6B7C81B2A58022800CB9158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B7C81D2A58022800CB9158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86DCD9633680BD406F43C63 /* Pods-DailyMotionPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyMotionPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6B7C81E2A58022800CB9158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DD850D0CE666DE3E097867 /* Pods-DailyMotionPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyMotionPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6B7C8202A58022800CB9158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1956D5CEE8B4480F3449717C /* Pods-DailyMotionPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMotionPlayer.app/DailyMotionPlayer";
+			};
+			name = Debug;
+		};
+		D6B7C8212A58022800CB9158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93E59EB935CF41BA9A4EBE9 /* Pods-DailyMotionPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMotionPlayer.app/DailyMotionPlayer";
+			};
+			name = Release;
+		};
+		D6B7C8232A58022800CB9158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BE081EB43C9C01F3D3DE45 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMotionPlayer;
+			};
+			name = Debug;
+		};
+		D6B7C8242A58022800CB9158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C05E8D501F0EF682CB99A6 /* Pods-DailyMotionPlayer-DailyMotionPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.DailyMotionPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMotionPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B7C7ED2A58022700CB9158 /* Build configuration list for PBXProject "DailyMotionPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B7C81A2A58022800CB9158 /* Debug */,
+				D6B7C81B2A58022800CB9158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B7C81C2A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B7C81D2A58022800CB9158 /* Debug */,
+				D6B7C81E2A58022800CB9158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B7C81F2A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B7C8202A58022800CB9158 /* Debug */,
+				D6B7C8212A58022800CB9158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B7C8222A58022800CB9158 /* Build configuration list for PBXNativeTarget "DailyMotionPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B7C8232A58022800CB9158 /* Debug */,
+				D6B7C8242A58022800CB9158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B7C7EA2A58022700CB9158 /* Project object */;
+}
